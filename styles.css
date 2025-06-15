@@ -1,0 +1,36 @@
+ body {
+      background-color: #1e2e38;
+    }
+
+    .card {
+      background-color: #122733;
+      border: none;
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+    }
+
+    .form-control,
+    .form-control:focus {
+      background-color: transparent;
+      color: #fff;
+      border-color: #00bcd4;
+      box-shadow: none;
+    }
+
+    .form-text,
+    .form-check-label {
+      color: #aaa;
+    }
+
+    .btn-outline-info {
+      border-color: #00bcd4;
+      color: #00bcd4;
+    }
+
+    .btn-outline-info:hover {
+      background-color: #00bcd4;
+      color: #fff;
+    }
+::placeholder {
+  color: #ccc !important;
+  opacity: 1;
+}
