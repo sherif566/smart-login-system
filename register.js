@@ -35,7 +35,7 @@ document.querySelector("form").addEventListener("submit",function(e){
     });
     localStorage.setItem("users",JSON.stringify(users));
     alert("User Registered Successfully");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 
 
 });
